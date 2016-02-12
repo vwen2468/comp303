@@ -20,6 +20,15 @@ public class Inventory
 	{
 		aName = pName;
 	}
+	public int totalValue()
+	{
+ 		Iterator entries = ;
+		if (pavailable(item))
+		{while (item.quantity!=0)
+			total++;
+			}
+		return total;
+	}
 	public Item compare(Item i1, Item i2)
 	{
 		int p1 = i1.getPrice();
