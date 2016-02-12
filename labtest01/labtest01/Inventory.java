@@ -20,7 +20,18 @@ public class Inventory
 	{
 		aName = pName;
 	}
-	
+	public Item compare(Item i1, Item i2)
+	{
+		int p1 = i1.getPrice();
+		int p2 = i2.getPrice();
+		if (p1<p2)
+		{
+			return p1;
+		}
+		else {
+		return p2;
+		}
+	}
 	/**
 	 * @return The unique name of this inventory.
 	 */
